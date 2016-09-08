@@ -1,0 +1,128 @@
+
+html,
+body,
+.wrapper {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+  background: rgb(238, 238, 238);
+  height: auto;
+}
+
+.header {
+    background: #273244;
+    position: fixed;
+    width: 100%;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
+    z-index: 1000000;
+}
+
+.logo {
+
+    width: 18%;
+    font-family: "Roboto","Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    display: block;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    float: left;
+}
+
+.searchbox input {
+    border: none;
+    width: 90%;
+    padding: 5px;
+    font-size: 16px;
+    height: 16px;
+}
+.searchbox input:focus {
+    outline: none;
+}
+.searchbox {
+    padding: 10px 15px;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    margin: 0 auto;
+    max-width: 712px;
+    position: relative;
+}
+
+
+
+.navigation {
+    color: whitesmoke;
+    position: relative;
+    font-family: "Roboto","Helvetica Neue",Arial,sans-serif;
+
+    max-width: 760px;
+    margin: 0 auto;
+
+}
+
+.navigation > a {
+    display: inline-block;
+    opacity: 0.6;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-bottom: 2px;
+    width: 24.5%;
+    font-family: arial,sans-serif-medium,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.navigation > a,
+.navigation > a:visited,
+.navigation > a:focus,
+.navigation > a:hover,
+.navigation > a:active {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navigation a.active {
+  transition: ease 0.4s;
+  opacity: 1;
+
+}
+
+.navigation .underline {
+  position: relative;
+  bottom: -10px;
+  height: 2px;
+  background: white;
+  width: 40px;
+  transform-origin: 0px 0px 0px;
+  transition: ease 0.4s;
+}
+
+.searchbox .btn-search {
+    float: right;
+    font-size: 20px;
+    padding: 3px;
+    color: #273244;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/*Content*/
+
+.content {
+  padding-top: 100px;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 14px;
+}

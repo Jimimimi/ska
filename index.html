@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="ska-app">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ska web app</title>
+    <link rel="stylesheet" type="text/css" href="client/dist/vendor.min.css" />
+    <link rel="stylesheet" type="text/css" href="client/dist/app.min.css" />
+
+
+    <script src="client/dist/vendor.min.js"></script>
+    <script src="client/dist/app.min.js"></script>
+    <base href="/" />
+  </head>
+  <body ng-controller="MainController">
+    <div class="wrapper">
+
+      <div class="header">
+
+        <div class="logo">
+          <strong>S</strong>k<strong>a</strong>
+        </div>
+        <div class="searchbox">
+          <input type="text" placeholder="Search anything" />
+          <div class="btn-search"><i class="ion-search"></i></div>
+        </div>
+        <div class="options">
+          <div class="profile-btn">
+
+          </div>
+        </div>
+        <menu>
+
+        </menu>
+      </div>
+      <div class="content" ng-view>
+        <!-- // content -->
+      </div>
+
+    </div>
+  </body>
+</html>
