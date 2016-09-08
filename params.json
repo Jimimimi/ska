@@ -1,0 +1,6 @@
+{
+  "name": "Ska",
+  "tagline": "AngularJS scaffold for use with RESTful APIs",
+  "body": "### Dependencies ###\r\n* [node.js](https://nodejs.org/en/)\r\n\r\n### Build steps ###\r\n\r\n#### Clone the repository ####\r\n\r\n`git clone git@github.com:jimimimi/ska.git`\r\n\r\n\r\n#### Install Gulp ####\r\n\r\n`npm install -g gulp`\r\n\r\n\r\n#### Install dependencies ####\r\n\r\n`cd ska && npm install` (mock API dependencies)\r\n`cd client/vendor && npm install` (front-end dependencies)\r\n\r\n\r\n#### Build source ####\r\n`cd ../..` (back to Ska root)\r\n\r\n\r\n`npm build`\r\n\r\n\r\n#### Run the mock server ####\r\n\r\n`npm start`\r\n\r\n#### All done ####\r\n\r\nNavigate your web-browser to `http://localhost:3000`",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
